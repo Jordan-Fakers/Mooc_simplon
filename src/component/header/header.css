@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.header-container{
+    background-color: #57496E;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-title {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+.sign-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    padding: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.50);
+    text-decoration: none;
+}
