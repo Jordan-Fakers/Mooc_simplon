@@ -10,7 +10,7 @@ function App() {
       <Header />
       <div className="app-content">
       <BrowserRouter>
-      <Link to="/" />
+      <Link to="/"> </Link>
       </BrowserRouter>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 import './header.css';
 
 function Header() {
@@ -8,12 +9,10 @@ function Header() {
                 <h1> Course </h1>
             </div>
             <div className="sign-link">
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    Sign Up
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    Sign In
-                </a>
+            <BrowserRouter>
+                <Link to="/Sign-In"> Sign In </Link>
+                <Link to="/Sign-Up"> Sign Up </Link>
+            </BrowserRouter>
             </div>
         </div>
     )
